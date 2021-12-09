@@ -1,0 +1,36 @@
+{
+    "name": "shopify/shopify-api",
+    "description": "Shopify API Library for PHP",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "shopify",
+        "node",
+        "jwt",
+        "app",
+        "graphql",
+        "rest",
+        "webhook",
+        "Admin API",
+        "Storefront API"
+    ],
+    "authors": [
+        {
+            "name": "Shopify Inc.",
+            "email": "dev-tools-education@shopify.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shopify\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ShopifyTest\\": "tests/"
+        }
+    },
+    "require": {
+        "phpclassic/php-shopify": "^1.1"
+    }
+}
